@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#12051f"/><stop offset=".55" stop-color="#2a0b4b"/><stop offset="1" stop-color="#071c3a"/></linearGradient>
+ <linearGradient id="aura"><stop stop-color="#b65cff"/><stop offset="1" stop-color="#22e7ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="48" fill="url(#bg)"/>
+<g opacity=".25" fill="none" stroke="#b65cff"><circle cx="1020" cy="170" r="145" stroke-width="7"/><circle cx="1020" cy="170" r="115" stroke-width="3"/></g>
+<path d="M760 350 Q900 170 790 15 Q1010 105 1160 0 Q1060 150 1190 320 Q980 235 760 350Z" fill="url(#aura)" opacity=".28" filter="url(#glow)"/>
+<!-- generic shonen anime hero -->
+<g transform="translate(900 35)" filter="url(#glow)">
+ <path d="M50 125 L-5 50 70 90 38 0 105 75 155 10 145 105 220 55 170 135 235 140 165 175 210 235 135 195 110 310 85 205 15 250 55 180 -10 145 55 135Z" fill="#1d0b37" stroke="#d77aff" stroke-width="5"/>
+ <ellipse cx="112" cy="125" rx="55" ry="64" fill="#f2b6a0" stroke="#2b123d" stroke-width="7"/>
+ <path d="M58 120 Q85 35 120 72 Q160 35 175 115 Q145 88 122 105 Q92 83 58 120Z" fill="#101322" stroke="#7de8ff" stroke-width="5"/>
+ <path d="M80 130 l20 5 M125 135 l20-5" stroke="#171126" stroke-width="7" stroke-linecap="round"/>
+ <path d="M98 165 Q113 177 130 164" fill="none" stroke="#6d214f" stroke-width="5"/>
+ <path d="M55 190 Q112 160 172 195 L190 320 35 320Z" fill="#151a43" stroke="#54dfff" stroke-width="7"/>
+ <path d="M48 215 L5 295 M166 215 L218 285" stroke="#f2b6a0" stroke-width="24" stroke-linecap="round"/>
+</g>
+<g fill="#fff"><circle cx="80" cy="70" r="3"/><circle cx="180" cy="285" r="4"/><circle cx="330" cy="65" r="2"/><circle cx="650" cy="300" r="3"/></g>
+</svg>

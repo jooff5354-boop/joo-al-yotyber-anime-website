@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08051a"/><stop offset=".45" stop-color="#241044"/><stop offset="1" stop-color="#031b2c"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#f7eaff"/><stop offset=".7" stop-color="#b77cff"/><stop offset="1" stop-color="#7b39d8" stop-opacity="0"/></radialGradient>
+ <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b968ff"/><stop offset="1" stop-color="#38206e"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<circle cx="1250" cy="190" r="170" fill="url(#moon)" opacity=".95"/>
+<g fill="#fff" opacity=".75">
+ <circle cx="160" cy="140" r="3"/><circle cx="330" cy="230" r="2"/><circle cx="520" cy="105" r="3"/><circle cx="720" cy="180" r="2"/><circle cx="930" cy="100" r="3"/><circle cx="1450" cy="340" r="2"/><circle cx="1360" cy="610" r="3"/><circle cx="260" cy="640" r="2"/><circle cx="560" cy="770" r="3"/><circle cx="1080" cy="760" r="2"/>
+</g>
+<g opacity=".35" filter="url(#glow)"><ellipse cx="500" cy="600" rx="390" ry="100" fill="#9d4edd"/><ellipse cx="1180" cy="780" rx="380" ry="90" fill="#00d4ff"/></g>
+<!-- stylized anime character silhouette -->
+<g transform="translate(740 285)">
+ <path d="M230 0c-95 0-150 70-150 155 0 55 23 104 62 132-66 32-122 95-142 190l330 0c-17-94-72-158-139-190 42-29 67-78 67-134C258 70 325 0 230 0z" fill="url(#hair)" opacity=".92"/>
+ <path d="M150 154c18-44 51-70 84-70 37 0 68 27 85 70-18-9-34-13-48-13-20 0-32 8-44 19-13-11-28-19-48-19-11 0-21 4-29 13z" fill="#160d2e"/>
+ <ellipse cx="188" cy="163" rx="10" ry="16" fill="#b9f4ff"/><ellipse cx="252" cy="163" rx="10" ry="16" fill="#b9f4ff"/>
+ <path d="M198 215q31 20 62 0" fill="none" stroke="#ff9adf" stroke-width="6" stroke-linecap="round"/>
+ <path d="M155 310q75-35 150 0l70 175H80z" fill="#10152e"/>
+ <path d="M122 347q-55 38-72 100M338 347q55 38 72 100" fill="none" stroke="#7b5cff" stroke-width="24" stroke-linecap="round"/>
+</g>
+<!-- foreground city -->
+<path d="M0 880h130V760h90v120h100V700h130v180h90V790h110v90h120V735h95v145h140V675h125v205h100V760h120v120h150v-90h90v90h160v120H0z" fill="#050711" opacity=".9"/>
+</svg>
